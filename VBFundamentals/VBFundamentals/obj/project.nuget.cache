@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JPz6QX2IqUdi1EkadkRkpv5g43ggw2dEbs/P8wqB/0QAUTN/IQlKl0Q7Oo6UDTJieXdREKNhG2kpnSdqvptH9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\weiserm\\OneDrive - My Choice Family Inc\\Documents\\mwDev\\VBFundamentals\\VBFundamentals\\VBFundamentals\\VBFundamentals.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\weiserm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

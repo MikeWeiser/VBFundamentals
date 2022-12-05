@@ -1,0 +1,14 @@
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.exe
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.deps.json
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.runtimeconfig.json
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.runtimeconfig.dev.json
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.dll
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\bin\Debug\netcoreapp3.1\VBFundamentals.pdb
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.vbproj.AssemblyReference.cache
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.AssemblyInfoInputs.cache
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.AssemblyInfo.vb
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.vbproj.CoreCompileInputs.cache
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.dll
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.pdb
+C:\Users\weiserm\OneDrive - My Choice Family Inc\Documents\mwDev\VBFundamentals\VBFundamentals\VBFundamentals\obj\Debug\netcoreapp3.1\VBFundamentals.genruntimeconfig.cache
