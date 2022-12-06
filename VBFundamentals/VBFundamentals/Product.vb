@@ -1,4 +1,12 @@
 ﻿Public Class Product
+
+    Sub New()
+        StandardCost = 500
+        ListPrice = 900
+        SellStartDate = DateTime.Now
+    End Sub
+
+
     Public Property IsActive As Boolean
 
     Public Property Name As String

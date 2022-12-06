@@ -5,11 +5,7 @@ Module MainModule
 
         Dim prod As New Product
 
-        prod.StandardCost = 250
-        prod.ListPrice = 500
-
-        Console.WriteLine(prod.CalculateProfit())    '250
-        Console.WriteLine(prod.CalculateProfit(700))  '-200
+        Console.WriteLine(prod.CalculateProfit())
 
         Console.ReadKey()
     End Sub
