@@ -17,11 +17,11 @@
 
     Public Property SellEndDate As DateTime
 
-    Sub CalculateSellEndDate(ByVal days As Integer, ByRef sellDate As DateTime)
+    Function CalculateSellEndDate(ByVal days As Integer) As DateTime
         SellEndDate = SellStartDate.AddDays(days)
 
-        sellDate = SellEndDate
-    End Sub
+        Return SellEndDate
+    End Function
 
 End Class
 
