@@ -25,6 +25,10 @@
 
     Public Property SellEndDate As DateTime
 
+    Shared Function CalculateTheProfit(ByVal cost As Decimal, ByVal price As Decimal) As Decimal
+        Return price - cost
+    End Function
+
     Function CalculateSellEndDate(ByVal days As Integer) As DateTime
         SellEndDate = SellStartDate.AddDays(days)
 

@@ -3,9 +3,7 @@ Imports System
 Module MainModule
     Sub Main()
 
-        Dim prod As New Product
-
-        Console.WriteLine(prod.CalculateProfit())
+        Console.WriteLine(Product.CalculateTheProfit(900, 1400))
 
         Console.ReadKey()
     End Sub
