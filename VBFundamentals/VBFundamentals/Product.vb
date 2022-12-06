@@ -23,5 +23,13 @@
         Return SellEndDate
     End Function
 
+    Function CalculateProfit(Optional ByVal newCost As Decimal = 0) As Decimal
+        If newCost <> 0 Then
+            StandardCost = newCost
+        End If
+
+        Return ListPrice - StandardCost
+    End Function
+
 End Class
 

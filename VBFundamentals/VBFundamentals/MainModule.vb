@@ -4,13 +4,12 @@ Module MainModule
     Sub Main()
 
         Dim prod As New Product
-        Dim sellDate As DateTime
 
-        prod.SellStartDate = #5/1/2019#
+        prod.StandardCost = 250
+        prod.ListPrice = 500
 
-        sellDate = prod.CalculateSellEndDate(30)
-
-        Console.WriteLine(sellDate)
+        Console.WriteLine(prod.CalculateProfit())    '250
+        Console.WriteLine(prod.CalculateProfit(700))  '-200
 
         Console.ReadKey()
     End Sub
