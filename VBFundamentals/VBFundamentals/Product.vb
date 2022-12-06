@@ -23,13 +23,20 @@
         Return SellEndDate
     End Function
 
-    Function CalculateProfit(Optional ByVal newCost As Decimal = 0) As Decimal
+    Overloads Function CalculateProfit() As Decimal
+        Return CalculateProfit(StandardCost)
+    End Function
+
+
+    Overloads Function CalculateProfit(ByVal newCost As Decimal)
         If newCost <> 0 Then
             StandardCost = newCost
         End If
 
         Return ListPrice - StandardCost
     End Function
+
+
 
 End Class
 
