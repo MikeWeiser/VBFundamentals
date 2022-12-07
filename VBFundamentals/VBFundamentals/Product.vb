@@ -1,4 +1,5 @@
 ﻿Public Class Product
+    Inherits CommonBase
 
     Sub New()
         StandardCost = 500
@@ -7,11 +8,13 @@
     End Sub
 
 
-    Public Property IsActive As Boolean
+    Public Property ProductID As Integer
 
-    Public Property Name As String
+    Public Property ProductName As String
 
     Public Property ProductNumber As String
+
+    Public Property Color As String
 
     Public Property StandardCost As Decimal
 
@@ -24,6 +27,7 @@
     Public Property SellStartDate As DateTime
 
     Public Property SellEndDate As DateTime
+
 
     Shared Function CalculateTheProfit(ByVal cost As Decimal, ByVal price As Decimal) As Decimal
         Return price - cost
@@ -48,6 +52,19 @@
         Return ListPrice - StandardCost
     End Function
 
+    Function GetClassData() As String
+        Dim sb As New Text.StringBuilder(1024)
+
+        sb.AppendLine("ProductId: " + ProductID.ToString())
+        sb.AppendLine("ProductName: " + ProductName)
+        sb.AppendLine("ProductNumber: " + ProductNumber)
+        ' below vars are from the CommonBase class
+        sb.AppendLine("IsActive: " + IsActive.ToString())
+        sb.AppendLine("ModifiedDate: " + ModifiedDate.ToString())
+        sb.AppendLine("CreatedBy: " + CreatedBy)
+
+        Return sb.ToString()
+    End Function
 
 
 End Class
