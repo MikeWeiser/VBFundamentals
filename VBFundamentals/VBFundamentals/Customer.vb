@@ -12,7 +12,7 @@
     Public Property LastName As String
     Public Property CompanyName As String
 
-    Overrides Function GetClassData() As String
+    Protected Overrides Function GetClassData() As String
         Dim sb As New Text.StringBuilder(1024)
 
         sb.AppendLine("CustomerID: " + CustomerID.ToString())

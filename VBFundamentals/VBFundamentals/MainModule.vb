@@ -7,7 +7,7 @@ Module MainModule
             .ProductName = "10 Speed Bike",
             .ProductNumber = "10-SP"
         }
-        Console.WriteLine(prod.GetClassData())
+        Console.WriteLine(prod.ToString())
 
         Dim cust As New Customer With {
         .CustomerID = 1,
@@ -16,7 +16,7 @@ Module MainModule
         .LastName = "Jones"
         }
 
-        Console.WriteLine(cust.GetClassData())
+        Console.WriteLine(cust.ToString())
 
         Console.ReadKey()
     End Sub
